@@ -1,6 +1,6 @@
 .vs/
-BadCredit/obj/
-BadCredit/BadCredit.csproj
-BadCredit/App.config
-BadCredit/Properties
-BadCredit/bin
+#BadCredit/obj/
+#BadCredit/BadCredit.csproj
+#BadCredit/App.config
+#BadCredit/Properties
+#BadCredit/bin
