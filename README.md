@@ -7,7 +7,8 @@ There are a lot of people with credit cards in this world, so those numbers are 
 - [x] Multiply every other digit by 2, starting with the number’s second-to-last digit, and then add those products'digits together.
 - [x] Add the sum to the sum of the digits that weren’t multiplied by 2.
 - [x] If the total’s last digit is 0 (or, put more formally, if the total modulo 10 is congruent to 0), the number is valid!
-Let’s try an example with American Express: 378282246310005.
+
++ Let’s try an example with American Express: 378282246310005.
 1. For the sake of discussion, let’s first underline every other digit, starting with the number’s second-to-last digit:
 378282246310005
 Okay, let’s multiply each of the underlined digits by 2:
