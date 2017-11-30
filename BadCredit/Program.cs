@@ -8,8 +8,13 @@ namespace BadCredit
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Console.WriteLine("Enter car name -->");
+            string cardNumber = Console.ReadLine();
+
+            Console.WriteLine("your card is " + Card.ReturnsCardName(cardNumber));
+            Console.ReadKey();
         }
     }
 }

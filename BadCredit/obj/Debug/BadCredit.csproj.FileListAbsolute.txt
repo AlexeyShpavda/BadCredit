@@ -1,0 +1,7 @@
+E:\Programs\C#\BadCredit\BadCredit\bin\Debug\BadCredit.exe.config
+E:\Programs\C#\BadCredit\BadCredit\bin\Debug\BadCredit.exe
+E:\Programs\C#\BadCredit\BadCredit\bin\Debug\BadCredit.pdb
+E:\Programs\C#\BadCredit\BadCredit\obj\Debug\BadCredit.csprojResolveAssemblyReference.cache
+E:\Programs\C#\BadCredit\BadCredit\obj\Debug\BadCredit.csproj.CoreCompileInputs.cache
+E:\Programs\C#\BadCredit\BadCredit\obj\Debug\BadCredit.exe
+E:\Programs\C#\BadCredit\BadCredit\obj\Debug\BadCredit.pdb
