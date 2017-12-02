@@ -9,6 +9,14 @@ numbers, MasterCard uses 16-digit numbers, and Visa uses 13- and 16-digit number
 through 9), not binary, which means, for instance, that American Express could print as many as 10^(15) =
 1,000,000,000,000,000 unique cards! (That’s, ahem, a quadrillion.) Now that’s a bit of an exaggeration, because credit
 card numbers actually have some structure to them.
+
++ American Express numbers all start with 34 or 37;
++ MasterCard numbers all start with 51, 52, 53, 54, or 55;
++ Visa numbers all start with 4.
+But credit card numbers also have a "checksum" built into them, a mathematical relationship between at least one
+number and others. That checksum enables computers to detect typos (e.g., transpositions), if not fraudulent numbers,
+without having to query a database, which can be slow.
+
 - [x] Multiply every other digit by 2, starting with the number’s second-to-last digit, and then add those products'digits together.
 - [x] Add the sum to the sum of the digits that weren’t multiplied by 2.
 - [x] If the total’s last digit is 0 (or, put more formally, if the total modulo 10 is congruent to 0), the number is valid!
