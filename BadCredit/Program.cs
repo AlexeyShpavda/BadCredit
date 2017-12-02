@@ -10,10 +10,12 @@ namespace BadCredit
     {
         static void Main()
         {
-            Console.WriteLine("Enter car name -->");
+            Console.Write("Enter car name -->");
             string cardNumber = Console.ReadLine();
 
-            Console.WriteLine("your card is " + Card.ReturnsCardName(cardNumber));
+            Card card = new Card(cardNumber);
+
+            Console.WriteLine(card.ReturnsCardName());
             Console.ReadKey();
         }
     }
