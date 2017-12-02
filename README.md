@@ -13,6 +13,7 @@ card numbers actually have some structure to them.
 + American Express numbers all start with 34 or 37;
 + MasterCard numbers all start with 51, 52, 53, 54, or 55;
 + Visa numbers all start with 4.
+
 But credit card numbers also have a "checksum" built into them, a mathematical relationship between at least one
 number and others. That checksum enables computers to detect typos (e.g., transpositions), if not fraudulent numbers,
 without having to query a database, which can be slow.
